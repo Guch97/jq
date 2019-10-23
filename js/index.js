@@ -34,12 +34,14 @@ $(function() {
                 $('.screen04 .address').show().find('img:last').fadeIn(1000);
                 $('.screen04 .text').addClass('show');
             });
-
-
-
-
         },
         scrollingSpeed: 1000,
-
     });
 })
+
+ /*loading */
+ loading.showLoading({
+    type:1,
+    tip:"type 1"
+})
+loading.hideLoading();
