@@ -39,9 +39,3 @@ $(function() {
 
    
 
- /*loading */
- loading.showLoading({
-    type:1,
-    tip:"type 1"
-})
-loading.hideLoading();
