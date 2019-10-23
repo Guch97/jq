@@ -1,5 +1,4 @@
 $(function() {
-
     //初始化fullpage文件
     //设置每一个屏幕的类型颜色
     //设置屏幕内容的对齐方式默认是垂直居中，顶部对齐
@@ -34,12 +33,21 @@ $(function() {
                 $('.screen04 .address').show().find('img:last').fadeIn(1000);
                 $('.screen04 .text').addClass('show');
             });
-
-
-
-
         },
         scrollingSpeed: 1000,
-
     });
+
+     /*loading */
+ loading.showLoading({
+    type:1,
+    tip:"type 1"
 })
+loading.hideLoading();
+})
+
+ /*loading */
+ loading.showLoading({
+    type:1,
+    tip:"type 1"
+})
+loading.hideLoading();
