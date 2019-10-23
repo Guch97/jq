@@ -37,13 +37,7 @@ $(function() {
         scrollingSpeed: 1000,
     });
 
-     /*loading */
- loading.showLoading({
-    type:1,
-    tip:"type 1"
-})
-loading.hideLoading();
-})
+   
 
  /*loading */
  loading.showLoading({
